@@ -4,44 +4,87 @@
 <head>
     <meta charset='utf-8' />
     <title>Portfólio - Gabriel M.</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            /* background-color: #f2f4f3; */
+        }
+
+        #name {
+            font-family: Roboto, sans-serif;
+            color: #0a0908;
+            text-align: center;
+            font-weight: 600;
+            font-size: 28px;
+        }
+
+        #foto {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 100%;
+            width: 200px;
+        }
+
+        .section-title {
+            color: #22333b;
+            font-family: IBM Plex Sans, sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            margin-left: 10%;
+        }
+
+        .phrases-section {
+            color: #5e503f;
+            text-align: justify;
+            word-break: normal;
+            font-family: IBM Plex Sans, sans-serif;
+            margin-left: 15%;
+            margin-right: 10%;
+        }
+    </style>
 </head>
 
 <body>
-    <!--SEÇÃO 0-->
-    <h1>
-        NAVEGUE AQUI:
+
+    <!--SEÇÃO 1-->
+    <h1 id="name">
+        GABRIEL GARCIA PIMENTEL MENDONÇA
     </h1>
+    <img id="foto" src="images/gabriel-foto.jpeg" alt="Um garoto esperançoso com o seu futuro. - Foto do Gabriel">
+    <!--SEÇÃO 2-->
+    <h2 class="section-title">DESCRIÇÃO</h2>
+    <p class="phrases-section">Com 10 anos ganhei meu primeiro computador, gostava e gosto muito de jogar e me divertir
+        com ele.
+        Meus pais, preocupados com possiveis sequelas de tanto usar ele, ativaram no windows, o controle dos pais.
+        Para jogar era apenas em um certo horario(08:00 até as 18:00), fora disso era bloqueado. Por curiosidade, em
+        vez de jogar, eu ia em sites de pesquisa, e tentava estudar ou entender como burlar o sistema de horarios.
+        Foi ai que descobri a BIOS, e para quem não sabia, acabei descobrindo que por ela é possível mudar o horário do
+        PC,
+        então entrava escondido(sabia que era errado), mudava o horario da BIOS e PAM!!. Dei um passo que mais
+        tarde,
+        seria <strong>paixão pela tecnologia,</strong> e aprendizado constante, entrei na programação e hoje estou aqui,
+        de frente
+        a um computador, programando com <strong>muito amor e carinho.</strong>
+    </p>
+    <p><strong>Brasileiro</strong></p>
+    <p><strong>São Paulo/SP</strong></p>
+    <!--SEÇÃO 3-->
+    <h2 class="section-title">
+        NAVEGUE AQUI:
+    </h2>
     <ul>
         <li><a href="#nome">Nome</a></li>
         <li><a href="#descricao">Descrição</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#links">Links</a></li>
     </ul>
-    <!--SEÇÃO 1-->
-    <h1 id="nome">
-        GABRIEL GARCIA PIMENTEL MENDONÇA
-    </h1>
-    <img id="foto-gabriel" src="images/gabriel-foto.jpeg" width="300"
-        alt="Um garoto esperançoso com o seu futuro. - Foto do Gabriel">
-    <!--SEÇÃO 2-->
-    <h2 id="descricao">DESCRIÇÃO</h2>
-    <p>Com 10 anos ganhei meu primeiro computador, gostava e gosto muito de jogar e me divertir com ele.<br>
-        Meus pais, preocupados com possiveis sequelas de tanto usar ele, ativaram no windows, o controle dos pais.<br>
-        Para jogar era apenas em um certo horario(08:00 até as 18:00), fora disso era bloqueado. Por curiosidade, em<br>
-        vez de jogar, eu ia em sites de pesquisa, e tentava estudar ou entender como burlar o sistema de horarios.<br>
-        Foi ai que descobri a BIOS, e para quem não sabia, acabei descobrindo que por ela é possível mudar o horário do
-        PC,<br>
-        então entrava escondido(sabia que era errado), mudava o horario da BIOS e PAM!!. Dei um passo que mais
-        tarde,<br>
-        seria <strong>paixão pela tecnologia,</strong> e aprendizado constante, entrei na programação e hoje estou aqui,
-        de frente <br>
-        a um computador, programando com <strong>muito amor e carinho.</strong>
-    </p>
-    <p><strong>Brasileiro</strong></p>
-    <p><strong>São Paulo/SP</strong></p>
-
-    <!--SEÇÃO 3-->
-    <h2 id="habilidades">HABILIDADES</h2>
+    <!--SEÇÃO 4-->
+    <h2 class="section-title">HABILIDADES</h2>
     <ul>
         <li>C</li>
         <li><strong>C#</strong></li>
@@ -50,8 +93,8 @@
         <li>HTML</li>
     </ul>
 
-    <!--SEÇÃO 4-->
-    <h2 id="links">LINKS</h2>
+    <!--SEÇÃO 5-->
+    <h2 class="section-title">LINKS</h2>
     <ul>
         <li><a href="#foto-gabriel">Minha Foto</a></li>
         <li><a target="_Blank" href="https://github.com/gabrielgarciamendonca">Meu GitHub</a></li>
