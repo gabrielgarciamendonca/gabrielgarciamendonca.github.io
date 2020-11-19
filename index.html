@@ -17,28 +17,20 @@
         #name {
             font-family: Roboto, sans-serif;
             color: #22333b;
-            text-align: center;
             font-weight: 600;
             font-size: 28px;
         }
 
         #foto {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 100%;
             width: 200px;
         }
 
         .section-title {
-            background-color: #22333b;
-            color: #f2f4f3;
+            color: #22333b;
             line-height: 55px;
             font-family: IBM Plex Sans, sans-serif;
             font-weight: 600;
             font-size: 20px;
-            margin-left: 10%;
-            margin-right: 10%;
         }
 
         .phrases-section {
@@ -46,8 +38,12 @@
             text-align: justify;
             word-break: normal;
             font-family: IBM Plex Sans, sans-serif;
-            margin-left: 15%;
-            margin-right: 10%;
+        }
+
+        .list-styles {
+            color: #5e503f;
+            font-family: IBM Plex Sans, sans-serif;
+            list-style: none;
         }
     </style>
 </head>
@@ -60,7 +56,7 @@
     </h1>
     <img id="foto" src="images/gabriel-foto.jpeg" alt="Um garoto esperançoso com o seu futuro. - Foto do Gabriel">
     <!--SEÇÃO 2-->
-    <h2 class="section-title">DESCRIÇÃO</h2>
+    <h2 class="section-title" id="description">DESCRIÇÃO</h2>
     <p class="phrases-section">Com 10 anos ganhei meu primeiro computador, gostava e gosto muito de jogar e me divertir
         com ele.
         Meus pais, preocupados com possiveis sequelas de tanto usar ele, ativaram no windows, o controle dos pais.
@@ -83,15 +79,15 @@
     <h2 class="section-title">
         NAVEGUE AQUI:
     </h2>
-    <ul>
-        <li><a href="#nome">Nome</a></li>
-        <li><a href="#descricao">Descrição</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
+    <ul class="list-styles">
+        <li><a href="#name">Nome</a></li>
+        <li><a href="#description">Descrição</a></li>
+        <li><a href="#skills">Habilidades</a></li>
         <li><a href="#links">Links</a></li>
     </ul>
     <!--SEÇÃO 4-->
-    <h2 class="section-title">HABILIDADES</h2>
-    <ul>
+    <h2 class="section-title" id="skills">HABILIDADES</h2>
+    <ul class="list-styles">
         <li>C</li>
         <li><strong>C#</strong></li>
         <li>ASP.NET</li>
@@ -100,8 +96,8 @@
     </ul>
 
     <!--SEÇÃO 5-->
-    <h2 class="section-title">LINKS</h2>
-    <ul>
+    <h2 class="section-title" id="links">LINKS</h2>
+    <ul class="list-styles">
         <li><a href="#foto-gabriel">Minha Foto</a></li>
         <li><a target="_Blank" href="https://github.com/gabrielgarciamendonca">Meu GitHub</a></li>
     </ul>
