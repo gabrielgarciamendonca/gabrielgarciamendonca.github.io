@@ -1,0 +1,35 @@
+        body {
+            background-color: #f2f4f3;
+        }
+
+        #name {
+            font-family: Roboto, sans-serif;
+            color: #22333b;
+            font-weight: 600;
+            font-size: 28px;
+        }
+
+        #foto {
+            width: 200px;
+        }
+
+        .section-title {
+            color: #22333b;
+            line-height: 55px;
+            font-family: IBM Plex Sans, sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .phrases-section {
+            color: #5e503f;
+            text-align: justify;
+            word-break: normal;
+            font-family: IBM Plex Sans, sans-serif;
+        }
+
+        .list-styles {
+            color: #5e503f;
+            font-family: IBM Plex Sans, sans-serif;
+            list-style: none;
+        }
