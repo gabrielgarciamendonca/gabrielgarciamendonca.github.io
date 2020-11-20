@@ -1,20 +1,21 @@
         body {
-            background-color: #f2f4f3;
+            background-color: #201e1f;
         }
 
         #name {
             font-family: Roboto, sans-serif;
-            color: #22333b;
+            color: #ff4000;
             font-weight: 600;
             font-size: 28px;
         }
 
         #foto {
             width: 200px;
+            border-radius: 100%;
         }
 
         .section-title {
-            color: #22333b;
+            color: #ff4000;
             line-height: 55px;
             font-family: IBM Plex Sans, sans-serif;
             font-weight: 600;
@@ -22,14 +23,20 @@
         }
 
         .phrases-section {
-            color: #5e503f;
+            color: #feefdd;
             text-align: justify;
             word-break: normal;
             font-family: IBM Plex Sans, sans-serif;
         }
 
         .list-styles {
-            color: #5e503f;
+            color: #feefdd;
             font-family: IBM Plex Sans, sans-serif;
             list-style: none;
+        }
+
+        .link-styles{
+            color: #feefdd;
+            font-family: IBM Plex Sans, sans-serif;
+            text-decoration: none;
         }
