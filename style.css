@@ -40,3 +40,8 @@
             font-family: IBM Plex Sans, sans-serif;
             text-decoration: none;
         }
+        .link-styles:hover{
+            color: #ff4000;
+            font-family: IBM Plex Sans, sans-serif;
+            text-decoration: none;
+        }
