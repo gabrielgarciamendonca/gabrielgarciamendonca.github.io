@@ -7,11 +7,15 @@
             color: #ff4000;
             font-weight: 600;
             font-size: 28px;
+            margin-left: 10em;
         }
 
         #foto {
             width: 200px;
+            float: left;
             border-radius: 100%;
+            margin-left: 50px;
+            margin-top: 20px;
         }
 
         .section-title {
@@ -30,9 +34,20 @@
         }
 
         .list-styles {
-            color: #feefdd;
-            font-family: IBM Plex Sans, sans-serif;
-            list-style: none;
+            list-style-type: none;
+            height: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 50px;
+            margin-left: 50px;
+            background-color: #201f1a;
+            text-align: center;
+        }
+
+        .menu-style{
+            width: 20%;
+            margin-top: 15px;
+            display: inline-block;
         }
 
         .link-styles{
@@ -44,4 +59,21 @@
             color: #ff4000;
             font-family: IBM Plex Sans, sans-serif;
             text-decoration: none;
+        }
+
+        #description-section{
+            margin-left: 20em;
+            width: 50%;
+        }
+
+        .header-section{
+            padding: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            background-color: #201f1a;
+            width: auto;
+        }
+
+        *{
+            margin: 0;
         }
