@@ -37,18 +37,13 @@
 
         .list-styles {
             list-style-type: none;
-            height: 50px;
-            margin-top: 20px;
             margin-bottom: 20px;
-            margin-right: 50px;
-            margin-left: 50px;
             background-color: #201f1a;
             text-align: center;
         }
 
         .menu-style{
-            width: 20%;
-            margin-top: 15px;
+            width: auto;
             display: inline-block;
         }
 
@@ -64,18 +59,16 @@
         }
 
         #description-section{
-            margin-left: 20em;
-            width: 50%;
+            margin-left: 19em;
+            width: 70%;
         }
 
         .header-section{
             padding: 50px;
-            margin-left: 50px;
-            margin-right: 50px;
             background-color: #201f1a;
             width: auto;
         }
 
         *{
-            margin: 0;
+            margin: 35px;
         }
