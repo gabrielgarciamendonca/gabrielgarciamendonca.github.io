@@ -63,8 +63,17 @@
             width: 70%;
         }
 
+        .skill-item{
+            background-color: #feefdd;
+            color: #201f1a;
+            text-align: center;
+            width: 170px;
+            height: 40px;
+            padding-top: 2%;
+        }
+
         .header-section{
-            padding: 50px;
+            padding: 20px;
             background-color: #201f1a;
             width: auto;
         }
