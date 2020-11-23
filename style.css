@@ -1,88 +1,113 @@
-        body {
-            background-color: #201e1f;
-        }
 
-        #name {
-            font-family: Roboto, sans-serif;
-            color: #ff4000;
-            font-weight: 600;
-            font-size: 28px;
-            margin-left: 10em;
-        }
+/* Classes */
+.subsection{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: start;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
 
-        #foto {
-            width: 200px;
-            float: left;
-            padding: 3px;
-            background-color: #ff4000;
-            border-radius: 100%;
-            margin-left: 50px;
-            margin-top: 20px;
-        }
+.separate-subsection{
+    border-bottom: 1px solid yellow;
+}
 
-        .section-title {
-            color: #ff4000;
-            line-height: 55px;
-            font-family: IBM Plex Sans, sans-serif;
-            font-weight: 600;
-            font-size: 20px;
-        }
+.links-styles{
+    color: white;
+    text-decoration: white;
+    font-weight: 500;
+}
+.links-styles:hover{
+    color: yellow;
+}
 
-        .phrases-section {
-            color: #feefdd;
-            text-align: justify;
-            word-break: normal;
-            font-family: IBM Plex Sans, sans-serif;
-        }
+.list-styles{
+    list-style: none;
+    line-height: 30px;
+}
+.projects-pictures{
+    width: 5em;
+    height: 5em;
+    float: left;
+    margin-right: 20px;
+}
+.picture-formation{
+    height: 2.5em;
+    float: left;
+    margin-right: 20px;
+}
+.links-pictures{
+    width: 4em;
+    height: 4em;
+    float: left;
+    margin-right: 20px;
+}
+.add-background{
+    background-color: yellow;
+    padding: 2px;
+}
+.reset-height{
+    height: 5em;
+}
 
-        .list-styles {
-            list-style-type: none;
-            margin-bottom: 20px;
-            background-color: #201f1a;
-            text-align: center;
-        }
+.hide-scrollbar::-webkit-scrollbar{
+    display: none; /* Chrome */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 
-        .menu-style{
-            width: auto;
-            display: inline-block;
-        }
+/* Ids */
+#picture{
+    width: 10em;
+    height: 10em;
+    float: left;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+    background-color: yellow;
+    padding: 2px;
+}
+#first-section{
+    background-color: #5a189a;
+    color: white;
+    width: 48%;
+    height: 300px;
+    overflow-x: auto;
+    display: inline-block;
+}
 
-        .link-styles{
-            color: #feefdd;
-            font-family: IBM Plex Sans, sans-serif;
-            text-decoration: none;
-        }
-        .link-styles:hover{
-            color: #ff4000;
-            font-family: IBM Plex Sans, sans-serif;
-            text-decoration: none;
-        }
+#second-section{
+    background-color: #9d4edd;
+    color: white;
+    width: 48%;
+    height: 300px;
+    overflow: auto;
+    display: inline-block;
+}
+#third-section{
+    background-color: #c77dff;
+    color: white;
+    width: 48%;
+    height: 300px;
+    overflow: auto;
+    display: inline-block;
+}
+#fourth-section{
+    background-color: #240046;
+    color: white;
+    width: 48%;
+    height: 300px;
+    overflow: auto;
+    display: inline-block;
+}
 
-        #description-section{
-            margin-left: 19em;
-            width: 70%;
-        }
-
-        .skill-item{
-            background-color: #feefdd;
-            color: #201f1a;
-            text-align: center;
-            width: 170px;
-            height: 40px;
-            padding-top: 2%;
-        }
-
-        .header-section{
-            padding: 20px;
-            background-color: #201f1a;
-            width: auto;
-        }
-
-        .foot-image-style{
-            width: 50px;
-            height: 50px;
-        }
-
-        *{
-            margin: 35px;
-        }
+#all-sections{
+    margin: 0px;
+    
+}
+body{
+    background-color: #7b2cbf;
+    text-align: center;
+    margin: 10px;
+}
