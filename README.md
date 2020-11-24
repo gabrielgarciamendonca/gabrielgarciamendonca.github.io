@@ -3,7 +3,4 @@
 
 <img src="https://github.com/gabrielgarciamendonca/gabrielgarciamendonca.github.io/blob/master/Images/PRINT.png">
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 
