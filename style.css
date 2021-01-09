@@ -49,7 +49,48 @@ body {
   display: block;
 }
 
+.technologies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  margin: 20px;
+  padding: 10px;
+}
+
+.tecnologies-list ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-right: 2em;
+}
+
+.tecnologies-list ul li{
+  margin: 30px;
+  width: 180px;
+  height: 180px;
+  background-color: #161316;
+}
+
+.technologies hr {
+  width: 100px;
+}
+
+
 @media screen and (min-width: 760px) {
+
+  .tecnologies-list ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tecnologies-list ul li{
+    flex-grow: 2;
+  }
+
   .menu {
     flex-direction: row;
     padding: 0;
