@@ -1,6 +1,9 @@
 # Portfólio de Gabriel M
-> Este é o meu primeiro portfólio criado, utilizado CSS e HTML.
+> Evolução do projeto, criado e estilizado com css flex e media query. Ainda está incompleto, apenas o header está feito. Abaixo está um print do site em desktop e outra em mobile.
 
-<img src="https://github.com/gabrielgarciamendonca/gabrielgarciamendonca.github.io/blob/master/Images/PRINT.png">
+## Desktop
+<img src="https://github.com/gabrielgarciamendonca/gabrielgarciamendonca.github.io/blob/master/Images/header.desktop - feito.png">
 
+##Mobile
 
+<img src="https://github.com/gabrielgarciamendonca/gabrielgarciamendonca.github.io/blob/master/Images/header.mobile - feito.png">
