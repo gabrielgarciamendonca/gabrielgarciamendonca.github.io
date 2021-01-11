@@ -46,7 +46,11 @@ body {
 }
 
 #button-down {
-  display: block;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .technologies {
@@ -54,7 +58,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.9em;
   margin: 20px;
   padding: 10px;
 }
@@ -73,12 +77,47 @@ body {
   background-color: #161316;
 }
 
-.technologies hr {
+hr {
   width: 100px;
 }
 
+.soft-skills {
+  background-color: #161316;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 30px;
+}
+
+.soft-skills-list ul{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.soft-skills-list ul li{
+  margin: 20px 0;
+}
+
+.soft-skills-list ul li i{
+  font-size: 3em;
+}
 
 @media screen and (min-width: 760px) {
+
+  .soft-skills-list ul{
+    flex-direction: row;
+  }
+
+  .soft-skills-list ul li{
+    margin: 0 20px;
+    flex-wrap: wrap;
+  }
 
   .tecnologies-list ul{
     display: flex;
