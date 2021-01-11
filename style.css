@@ -3,6 +3,18 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: 0.8s;
+}
+
+a:hover {
+  opacity: 0.6;
+  transition: 0.8s;
+  color: #FFFFFF;
+}
+
 .menu {
   align-items: center;
   background-color: #161316;
@@ -11,6 +23,7 @@ body {
   flex-direction: column;
   font-size: 9px;
   padding: 10px;
+  width: 100%;
 }
 
 .menu-image img {
@@ -110,6 +123,11 @@ hr {
 
 @media screen and (min-width: 760px) {
 
+  .technologies {
+    margin-top: 0;
+    padding-top: 100px;
+  }
+  
   .soft-skills-list ul{
     flex-direction: row;
   }
@@ -133,6 +151,7 @@ hr {
   .menu {
     flex-direction: row;
     padding: 0;
+    position: fixed;
   }
 
   #button-down {
