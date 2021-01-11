@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  width: 100%;
 }
 
 a {
@@ -64,6 +65,7 @@ a:hover {
   height: 20px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .technologies {
@@ -103,6 +105,7 @@ hr {
   text-align: center;
   font-size: 0.9em;
   padding: 30px;
+  margin: 0;
 }
 
 .soft-skills-list ul{
@@ -151,6 +154,7 @@ hr {
   .menu {
     flex-direction: row;
     padding: 0;
+    margin: 0;
     position: fixed;
   }
 
