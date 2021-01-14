@@ -1,6 +1,19 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: 0.8s;
+}
+
+a:hover {
+  opacity: 0.6;
+  transition: 0.8s;
+  color: #FFFFFF;
 }
 
 .menu {
@@ -11,6 +24,7 @@ body {
   flex-direction: column;
   font-size: 9px;
   padding: 10px;
+  width: 100%;
 }
 
 .menu-image img {
@@ -46,7 +60,12 @@ body {
 }
 
 #button-down {
-  display: block;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .technologies {
@@ -54,7 +73,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.9em;
   margin: 20px;
   padding: 10px;
 }
@@ -73,12 +92,53 @@ body {
   background-color: #161316;
 }
 
-.technologies hr {
+hr {
   width: 100px;
 }
 
+.soft-skills {
+  background-color: #161316;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 30px;
+  margin: 0;
+}
+
+.soft-skills-list ul{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.soft-skills-list ul li{
+  margin: 20px 0;
+}
+
+.soft-skills-list ul li i{
+  font-size: 2.5em;
+}
 
 @media screen and (min-width: 760px) {
+
+  .technologies {
+    margin-top: 0;
+    padding-top: 100px;
+  }
+  
+  .soft-skills-list ul{
+    flex-direction: row;
+  }
+
+  .soft-skills-list ul li{
+    margin: 0 20px;
+    flex-wrap: wrap;
+  }
 
   .tecnologies-list ul{
     display: flex;
@@ -94,6 +154,8 @@ body {
   .menu {
     flex-direction: row;
     padding: 0;
+    margin: 0;
+    position: fixed;
   }
 
   #button-down {
