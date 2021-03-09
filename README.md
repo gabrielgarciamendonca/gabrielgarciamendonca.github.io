@@ -42,13 +42,13 @@
 #### Clonando o repositório
 
 ```bash
-git clone https://github.com/igorsantos97/bank-acc-react.git
+git clone git@github.com:gabrielgarciamendonca/gabrielgarciamendonca.github.io.git
 ```
 
 #### Entrando no diretório do projeto
 
 ```bash
-cd bank-acc-react
+cd gabrielgarciamendonca.github.io
 ```
 
 #### Instalando as Dependências
@@ -62,7 +62,3 @@ yarn install
 ```bash
 yarn start
 ```
-
-## Licença
-
-Esse projeto utiliza a <a href="https://cutt.ly/olGu4ds">LICENÇA</a> MIT.
