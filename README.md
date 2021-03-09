@@ -1,46 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Portólio</h1>
 
-## Available Scripts
+<p align="center">Este é o meu portfólio no qual estava trabalhando em cima nas ultimas horas, ele foi baseado em um layout encontrado no <a href="https://www.figma.com/file/65jqO6WQdYUXxI0yOL4VfA/Porto" target="_blank">figma</a>, claro, atribui a ele algumas coisas interessantes como uma imagem no banner para apresentação vinda direto da api da <a href="https://api.nasa.gov/" target="_blank">NASA</a>, ela me da uma imagem nova a respeito do universo ou de planetas próximos, todos os dias.</p>
 
-In the project directory, you can run:
+<img src="https://raw.githubusercontent.com/igorsantos97/bank-acc-react/main/docs/home-print.png" />
 
-### `yarn start`
+## Desenvolvido por: 
+ 
+<a href="https://cutt.ly/SlOQcBf" target="_blank"> 
+<img src="https://cutt.ly/1lOlfra" width="90"/></a>     
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<a href="https://cutt.ly/SlOQcBf" rel="nofollow">Gabriel M.</a> 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Libs
 
-### `yarn test`
+- ReactJS
+- Typescript
+- axios
+- styled-components
+- react-toastify
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Arquitetura de pastas
 
-### `yarn build`
+```
+├── src
+│   ├── @types
+│   ├── assets
+|   |   ├── json
+|   ├── components
+|   |   ├── article
+|   |   ├── body
+|   |   ├── header
+|   |   ├── menu
+|   ├── screens
+|   ├── services
+|   ├── styles
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Usar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Clonando o repositório
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/igorsantos97/bank-acc-react.git
+```
 
-### `yarn eject`
+#### Entrando no diretório do projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+cd bank-acc-react
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Instalando as Dependências
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+yarn install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Iniciando a Aplicação
 
-## Learn More
+```bash
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Licença
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Esse projeto utiliza a <a href="https://cutt.ly/olGu4ds">LICENÇA</a> MIT.
