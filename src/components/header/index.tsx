@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ( props ) => {
     (async() => {
       dotenv.config();
       try {
-        const result = await api.get<Iapod>(`/apod?api_key=${process.env.REACT_APP_NASA_API_KEY}`);
+        const result = await api.get<Iapod>(`/apod?api_key=${process.env.REACT_APP_NASA_API_KEY}&date=2021-03-05`);
         setImageOfTime(result.data.hdurl);
         if ( result.status !== 200 ) {
           toast.error('Imagem não foi encontrada na api da NASA!');
