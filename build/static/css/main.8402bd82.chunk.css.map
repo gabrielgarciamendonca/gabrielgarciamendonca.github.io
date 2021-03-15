@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/styles/global.css"],"names":[],"mappings":"AAAA,EACE,QAAS,CACT,SAAU,CACV,qBAAsB,CACtB,oBAAqB,CACrB,uCACF","file":"main.8402bd82.chunk.css","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  text-decoration: none;\n  font-family: 'Libre Franklin', sans-serif;\n}"]}
