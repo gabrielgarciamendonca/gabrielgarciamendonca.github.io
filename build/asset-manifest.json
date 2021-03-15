@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/gabrielgarciamendonca.github.io/static/css/main.8402bd82.chunk.css",
-    "main.js": "/gabrielgarciamendonca.github.io/static/js/main.32455f00.chunk.js",
-    "main.js.map": "/gabrielgarciamendonca.github.io/static/js/main.32455f00.chunk.js.map",
-    "runtime-main.js": "/gabrielgarciamendonca.github.io/static/js/runtime-main.cdc3c6e4.js",
-    "runtime-main.js.map": "/gabrielgarciamendonca.github.io/static/js/runtime-main.cdc3c6e4.js.map",
-    "static/css/2.ffda3d49.chunk.css": "/gabrielgarciamendonca.github.io/static/css/2.ffda3d49.chunk.css",
-    "static/js/2.1edbcf8a.chunk.js": "/gabrielgarciamendonca.github.io/static/js/2.1edbcf8a.chunk.js",
-    "static/js/2.1edbcf8a.chunk.js.map": "/gabrielgarciamendonca.github.io/static/js/2.1edbcf8a.chunk.js.map",
-    "index.html": "/gabrielgarciamendonca.github.io/index.html",
-    "static/css/2.ffda3d49.chunk.css.map": "/gabrielgarciamendonca.github.io/static/css/2.ffda3d49.chunk.css.map",
-    "static/css/main.8402bd82.chunk.css.map": "/gabrielgarciamendonca.github.io/static/css/main.8402bd82.chunk.css.map",
-    "static/js/2.1edbcf8a.chunk.js.LICENSE.txt": "/gabrielgarciamendonca.github.io/static/js/2.1edbcf8a.chunk.js.LICENSE.txt",
-    "static/media/menu-sand.2dc53ab7.svg": "/gabrielgarciamendonca.github.io/static/media/menu-sand.2dc53ab7.svg"
+    "main.css": "/app-toot-name/static/css/main.8402bd82.chunk.css",
+    "main.js": "/app-toot-name/static/js/main.32455f00.chunk.js",
+    "main.js.map": "/app-toot-name/static/js/main.32455f00.chunk.js.map",
+    "runtime-main.js": "/app-toot-name/static/js/runtime-main.739a6117.js",
+    "runtime-main.js.map": "/app-toot-name/static/js/runtime-main.739a6117.js.map",
+    "static/css/2.ffda3d49.chunk.css": "/app-toot-name/static/css/2.ffda3d49.chunk.css",
+    "static/js/2.0c925d52.chunk.js": "/app-toot-name/static/js/2.0c925d52.chunk.js",
+    "static/js/2.0c925d52.chunk.js.map": "/app-toot-name/static/js/2.0c925d52.chunk.js.map",
+    "index.html": "/app-toot-name/index.html",
+    "static/css/2.ffda3d49.chunk.css.map": "/app-toot-name/static/css/2.ffda3d49.chunk.css.map",
+    "static/css/main.8402bd82.chunk.css.map": "/app-toot-name/static/css/main.8402bd82.chunk.css.map",
+    "static/js/2.0c925d52.chunk.js.LICENSE.txt": "/app-toot-name/static/js/2.0c925d52.chunk.js.LICENSE.txt",
+    "static/media/menu-sand.2dc53ab7.svg": "/app-toot-name/static/media/menu-sand.2dc53ab7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cdc3c6e4.js",
+    "static/js/runtime-main.739a6117.js",
     "static/css/2.ffda3d49.chunk.css",
-    "static/js/2.1edbcf8a.chunk.js",
+    "static/js/2.0c925d52.chunk.js",
     "static/css/main.8402bd82.chunk.css",
     "static/js/main.32455f00.chunk.js"
   ]
