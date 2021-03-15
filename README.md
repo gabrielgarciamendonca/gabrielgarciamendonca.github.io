@@ -54,7 +54,7 @@ cd gabrielgarciamendonca.github.io
 #### Instalando as Dependências
 
 ```bash
-yarn install
+yarn
 ```
 
 #### Iniciando a Aplicação
